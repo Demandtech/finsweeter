@@ -53,7 +53,7 @@ width: 50%;
   padding: 80px 0;
 }
 #hero-section .image-section{
-  background: url(Header-Image.png);
+  background: url(/img/Header-Image.png);
   background-position: center;
   background-size: cover;
   min-height: 65vh;
@@ -321,7 +321,7 @@ text-align: center;
     display: flex;
   }
   .cta-section-container .cta-bg-section{
-    background: url(cta-bg.png);
+    background: url(/img/cta-bg.png);
     width: 40%;
     background-position: center;
     background-repeat: no-repeat;
@@ -335,7 +335,7 @@ width: 60%;
     width: 60%;
     display: flex;
     justify-content: flex-end;
-background: url(cta-bg-1.png);
+background: url(/img/cta-bg-1.png);
 background-position: left;
 background-repeat: no-repeat;
 background-size: cover;
