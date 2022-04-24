@@ -263,7 +263,8 @@ font-weight: 600;
     font-weight: 600;
     transition: 0.9s;
   }
-  .offer-section-top-container .item:hover, .offer-section-bottom-container  .item:hover{
+  .offer-section-top-container .item:hover, 
+  .offer-section-bottom-container  .item:hover{
     background-color: #ff6433;
     color: white;
   }
