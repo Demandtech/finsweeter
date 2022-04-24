@@ -329,7 +329,7 @@ text-align: center;
     display: flex;
   }
   .cta-section-container .cta-bg-section{
-    background: url(./img/cta-bg.png);
+    background: url(/img/cta-bg.png);
     width: 40%;
     background-position: center;
     background-repeat: no-repeat;
