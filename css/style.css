@@ -407,3 +407,41 @@ width: 200px;
     font-size: 40px;
     font-weight: 700;
   }
+  /*Testimonial styling begin here*/
+  #testimonial-section{
+    background-color: #f2f2f2;
+  }
+  .testimonial-section-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .testimonial-wrapper{
+    margin-top: 50px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+  }
+  .testimonial-details{
+    display: flex;
+    align-items: center;
+    gap: 5px
+  }
+  .testimonial-name p{
+    font-size: 24px;
+    font-weight: 600; 
+  }
+  .testimonial-name .city{
+    font-size: 16px;
+    color: #939191;
+  }
+  .left-testimonial, .right-testimonial{
+    width: 400px;
+    background-color: white;
+    padding: 50px 30px;
+  }
+  .testimonial{
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+  }
