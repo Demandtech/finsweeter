@@ -499,7 +499,7 @@ right: 0;
   
   }
   .faq-subheader-img img{
-   width: 24px
+   width: 50px
    
   }
   .faq-subheader{
@@ -509,3 +509,69 @@ right: 0;
   .faq-content{
     color:#939191
   }
+  /*footer Styling begin below*/
+  #footer{
+    background-color: #1e1b1b;
+    color: white;
+    opacity: 0.98;
+  }
+  .footer-container{
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   padding: 100px 0;
+  }
+  .footer-left{
+    width: 50%;
+    
+  }
+  .footer-left .footer-left-header{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  .footer-right{
+    width: 50%;
+    
+  }
+  .footer-right .title{
+    color: #ffffff;
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  .footer-right .helpline p{
+font-size: 24px;
+font-weight: 600;
+  }
+  .footer-right .helpline{
+    margin-bottom: 20px;
+  }
+  .footer-left-social img{
+    margin: 0 10px ;
+  }
+  .footer-bottom{
+background-color:#1b1e1e;
+padding: 50px;
+  }
+  .footer-bottom-container{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .footer-bottom-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-bottom .navigation ul{
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+  }
+  .footer-bottom .navigation ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+  }
+ 
