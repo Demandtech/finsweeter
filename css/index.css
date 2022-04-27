@@ -4,47 +4,53 @@
   box-sizing: border-box;
   font-family: "Manrope";
 }
-.container{
+.wrapper{
   width: 75%;
   margin: 0 auto;
-}
-.main-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 5px;
+  min-height: 100px ;
+
 }
-.right-section{
+.right-nav {
   display: flex;
   align-items: center;
 }
-.right-section ul{
+.assistance{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.assistance .phone{
+  padding-right: 5px;
+}
+.assistance-para .road{
+  color: #ccc;
+}
+.assistance-para .num{
+  font-size: 18px;
+  font-weight: 600;
+}
+#nav-links{
   list-style-type: none;
   display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+padding-right: 20px;
 }
-.road-assistance{
-  display: flex;
-  padding-left:20px;
-}
-.right-section ul li{
-  margin-right: 20px;
-}
-.right-section ul li a{
+#nav-links li a{
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
   color: #1e1b1b;
 }
-.right-section .navigation{
-  border-right: 2px solid #ccc
-}
-.road-assistance .icon{
-  margin-right: 10px;
-}
-.flex{
-  display: flex;
-}
 
+.hero-flex{
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+}
 #hero-section .text-section{
   width: 50%
 }
