@@ -1,45 +1,218 @@
 *{
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
   font-family: "Manrope";
 }
-.container{
-  width: 70%;
+
+.wrapper{
+  width: 75%;
   margin: 0 auto;
-}
-.main-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 5px;
+  min-height: 100px ;
+
 }
-.right-section{
+.right-nav {
   display: flex;
   align-items: center;
 }
-.right-section ul{
+.assistance{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.assistance .phone{
+  padding-right: 5px;
+}
+.assistance-para .road{
+  color: #ccc;
+}
+.assistance-para .num{
+  font-size: 18px;
+  font-weight: 600;
+}
+#nav-links{
   list-style-type: none;
   display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+padding-right: 20px;
 }
-.road-assistance{
-  display: flex;
-  padding-left:20px;
-}
-.right-section ul li{
-  margin-right: 20px;
-}
-.right-section ul li a{
+#nav-links li a{
   text-decoration: none;
-  color: #000;
+  padding: 10px;
+  font-weight: 600;
+  color: #1e1b1b;
 }
-.right-section .navigation{
-  border-right: 2px solid #ccc
+/*Navigation bar styling ends here*/
+.header{
+  width: 70%;
+  margin-top: 50px;
+  height: 430px;
 }
-.road-assistance .icon{
-  margin-right: 10px;
+.header-img{
+  width: 35%;
+  height: 100%;
+  background:url(../img/service.jpg);
+ background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.flex{
+.header .header-content{
+  width: 65%;
+ padding: 100px 70px;
+ height: 100%;
+  background-color: #1e1b1b;
+  color: white;
+}
+.header-content-para h1{
+  font-weight: 800;
+  padding-bottom: 10px;
+  font-size: 50px;
+}
+.header-content-para p{
+  line-height: 25px;
+  padding-bottom: 20px;
+font-size: 16px;
+
+}
+.header-content button{
+  padding: 16px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #FF6433;
+  border: none;
+  border-radius: 14px;
+}
+/*Header Styling end here*/
+#services-section{
+  margin-top: 50px;
+  background-color: #f5f5f5;
+  width: 95vw;
+  height: 100vh;
   display: flex;
+  align-items: center;
 }
-/*Header Styling End here*/
+.services-wrapper{
+ display: flex;
+ padding-left: 100px;
+ margin: 20px;
+
+}
+.service-left {
+  width:400px; 
+  padding: 20px;
+  background-color: white;
+}
+.service-left .service-left-img img{
+  width: 100%;
+}
+.service-left-header h3{
+  font-weight: 700;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.service-left-details{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.service-left-para p{
+  line-height: 25px;
+  opacity:0.6;
+  color: #232536;
+}
+.service-left-para{
+  padding-bottom: 20px;
+}
+
+.services-right{
+  width: 400px;
+ height: 100%;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+
+}
+.service-box{
+  display: flex;
+  margin-left: 20px;
+  justify-content: space-between;
+}
+.service-orange{
+  width: 170px;
+  height: 150px;
+  background-color: #FF6433;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.service{
+  width: 170px;
+  height: 150px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+/*Sevice styling ends here*/
+.how-top-right-para{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.how-top-right-para-1{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+.how-img img{
+  width: 40px;
+}
+.how-top{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 0;
+}
+.how-top-right{
+  width: 50%;
+}
+.how-top-right h3{
+  font-size: 30px;
+  font-weight: 700;
+ padding-bottom: 30px;
+}
+.how-top-left{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+.how-top-left img{
+width: 100%;
+height: 100%;
+}
+.how-top-left-img-1{
+  width: 49%;
+  background: url(../img/Image\ 2\ \(2\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ .how-top-left-img-2{
+  width: 49%;
+  background: url(../img/Image\ 1\ \(4\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
