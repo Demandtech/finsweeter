@@ -551,13 +551,14 @@ font-weight: 600;
     margin: 0 10px ;
   }
   .footer-bottom{
-background-color:#1b1e1e;
-padding: 50px;
+  background-color:#1b1e1e;
+  padding: 50px;
   }
   .footer-bottom-container{
     width: 70%;
     margin: 0 auto;
   }
+
   .footer-bottom-wrapper{
     display: flex;
     justify-content: space-between;
