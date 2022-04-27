@@ -197,10 +197,6 @@ font-size: 16px;
   width: 50%;
   justify-content: space-between;
 }
-.how-top-left img{
-width: 100%;
-height: 100%;
-}
 .how-top-left-img-1{
   width: 49%;
   background: url(../img/Image\ 2\ \(2\).png);
@@ -215,4 +211,125 @@ height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.how-bottom{
+  display: flex;
+  width: 75%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.how-bottom-right{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.how-bottom-right-img-1{
+  width: 49%;
+  background: url(../img/Image\ \(6\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+.how-bottom-right-img-2{
+  width: 49%;
+  background: url(../img/Image\ \(7\).png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.how-bottom-left{
+  width: 50%;
+  padding: 0  50px;
+}
+.how-bottom-left h3{
+  font-weight: 700;
+  font-size:  30px;
+  padding-bottom: 20px
+}
+.how-bottom-left p{
+  line-height: 25px;
+  font-size: 16px;
+  color: #232536;
+  opacity: 0.6;
+  padding-bottom:30px;
+}
+.how-bottom-left-button button{
+padding: 16px 40px ;
+color: white;
+border: none;
+border-radius: 14px;
+font-size: 18px;
+font-weight: 700;
+background-color: #FF6433;
+}
+/*How styling ends here */
+
+#footer{
+  background-color: #1e1b1b;
+  color: white;
+  opacity: 0.98;
+}
+.footer-container{
+ width: 70%;
+ margin: 0 auto;
+ display: flex;
+ padding: 100px 0;
+}
+.footer-left{
+  width: 50%;
+  
+}
+.footer-left .footer-left-header{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.footer-right{
+  width: 50%;
+  
+}
+.footer-right .title{
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer-right .helpline p{
+font-size: 24px;
+font-weight: 600;
+}
+.footer-right .helpline{
+  margin-bottom: 20px;
+}
+.footer-left-social img{
+  margin: 0 10px ;
+}
+.footer-bottom{
+background-color:#1b1e1e;
+padding: 50px;
+}
+.footer-bottom-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-bottom-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom .navigation ul{
+ list-style-type: none;
+ display: flex;
+ align-items: center;
+}
+.footer-bottom .navigation ul li a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+}
+
 
