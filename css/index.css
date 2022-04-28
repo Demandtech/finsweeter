@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Manrope";
 }
+
 .wrapper{
   width: 75%;
   margin: 0 auto;
@@ -11,27 +12,32 @@
   justify-content: space-between;
   align-items: center;
   min-height: 100px ;
-
 }
+
 .right-nav {
   display: flex;
   align-items: center;
 }
+
 .assistance{
   display: flex;
   align-items: center;
   padding-left: 20px;
 }
+
 .assistance .phone{
   padding-right: 5px;
 }
+
 .assistance-para .road{
   color: #ccc;
 }
+
 .assistance-para .num{
   font-size: 18px;
   font-weight: 600;
 }
+
 #nav-links{
   list-style-type: none;
   display: flex;
@@ -39,6 +45,7 @@
   border-right: 1px solid #ccc;
 padding-right: 20px;
 }
+
 #nav-links li a{
   text-decoration: none;
   padding: 10px;
@@ -50,17 +57,16 @@ padding-right: 20px;
   display: flex;
   width: 75%;
   margin: 0 auto;
- 
 }
-#hero-section .text-section{
+
+#hero-section .text-section, #hero-section .image-section{
   width: 50%
 }
-#hero-section .image-section{
-width: 50%;
-}
+
 #hero-section, #quote-section{
   padding: 80px 0;
 }
+
 #hero-section .image-section{
   background: url(../img/Header-Image.png);
   background-position: center;
