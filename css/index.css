@@ -267,6 +267,7 @@ margin-top: 30px;
   #offer-section{
     background-color: #f2f2f2;
     padding-bottom: 100px;
+    width: 100%;
   }
   .offer-section-container{
     width: 1030px;
@@ -297,11 +298,12 @@ font-weight: 600;
     font-weight: 600;
     transition: 0.9s;
   }
-  .offer-section-top-container .item:hover, 
-  .offer-section-bottom-container  .item:hover{
+  .offer-section-top-container .item:active, 
+  .offer-section-bottom-container  .item:active{
     background-color: #ff6433;
     color: white;
   }
+  
 
   .offer-section-top-container .item-img{
     text-align: center;
@@ -361,6 +363,7 @@ text-align: center;
   /*cta section styling begin below*/
   .cta-section-container{
     display: flex;
+    width: 100%;
   }
   .cta-section-container .cta-bg-section{
     background: url(../img/cta-bg.png);
@@ -445,6 +448,7 @@ width: 200px;
   #testimonial-section{
     background-color: #f2f2f2;
     padding: 50px 0 100px 0;
+    width: 100%;
   }
   .testimonial-section-header{
     text-align: center;
@@ -506,6 +510,7 @@ right: 0;
   #faq-section{
     background-color: #E2E6E9;
     padding-bottom:80px;
+    width: 100%;
   }
   .faq-section-header{
     text-align: center;
@@ -608,5 +613,12 @@ font-weight: 600;
     padding: 20px;
     color: white;
     font-weight: 600;
+  }
+
+
+  /*mobile styling*/
+
+  @media (max-width: 426px){
+
   }
  

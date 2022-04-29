@@ -1,0 +1,416 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope";
+}
+.flex{
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+}
+#button{
+  text-decoration: none;
+  background-color: #ff6433;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 16px 40px;
+  margin-top: 20px;
+  border-radius: 14px;
+}
+/*global styling ends here*/
+.wrapper{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px ;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.assistance{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.assistance .phone{
+  padding-right: 5px;
+}
+
+.assistance-para .road{
+  color: #ccc;
+}
+
+.assistance-para .num{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#nav-links{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+padding-right: 20px;
+}
+
+#nav-links li a{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  color: #1e1b1b;
+}
+/*Header styling begin here */
+#header-section{
+  margin-top: 50px;
+}
+.header-left{
+  width: 40%;
+  background: url(/img/about/Image-1.png);
+  background-position:left;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-right{
+  width: 60%;
+  padding: 100px 70px;
+  background-color: #1e1b1b;
+  color: #f2f2f2;
+  
+}
+.header-right h1{
+  font-weight: 800;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.header-right p{
+ line-height: 30px;
+ font-weight: 300;
+ margin-bottom: 50px;
+}
+/*step stling begin  here*/
+#step-section{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+}
+.step-left{
+  width: 50%;
+  padding-right: 20px;
+}
+.step-left h3{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.step-left p{
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.step-left ul{
+  list-style-type: none;
+}
+.step-box{
+  display: flex;
+  gap: 10px
+}
+.step-box-img{
+  width: 50px;
+  text-align: center;
+}
+.step-box-img img{
+  width: 100%;
+}
+.step-box-img .line img{
+  width: 2px;
+  height: 40px;
+}
+.step-box-text h4{
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+.step-box-text p{
+  line-height: 20px;
+}
+.step-right{
+  width: 50%;
+  background: url(../img/about/Steps\ Right.png);
+}
+/*step styling ends here*/
+.color-container{
+  width: 100%;
+  
+}
+.color-container .color-1{
+  background-color: rgba(248, 91, 41, 0.9);
+color: white;
+padding: 100px 70px;
+flex:1;
+}
+.color-container .color-1 h4, .color-container .color-2 h4, .color-container .color-3 h4{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px
+}
+.color-container .color-1 p{
+  line-height: 25px;
+}
+.color-container .color-2{
+  background-color: rgba(0,0,0,0.9);
+  color: white;
+  padding: 100px 70px;
+  flex:1;
+}
+.color-container .color-3{
+  background-color: rgba(116,67,202,0.9);
+  color: white;
+  padding: 100px 70px;
+  flex:1;
+}
+/*Color Styling ends here*/
+#feature-section{
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  padding-top: 50px;
+}
+
+.feature-container h2{
+font-weight: 700;
+font-size: 35px;
+text-align: center;
+padding-bottom: 50px;
+}
+.feature-wrapper{
+  justify-content: space-between;
+  background-color: white;
+}
+
+.feature-wrapper .feature{
+  text-align: center;
+  border-right: 2px solid #f8f8f8;
+  flex: 1;
+  padding: 50px 0;
+}
+
+.feature-wrapper .feature p{
+  line-height: 25px;
+}
+
+.feature-wrapper .feature h5{
+font-size: 24px;
+font-weight: 600;
+margin: 10px 0;
+}
+.numbers{
+justify-content: space-between;
+padding-top: 30px
+}
+.number h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #661ce7
+}
+.numbers p{
+  color: #1e1b1bae;
+  font-size: 20px;
+}
+/*features styling ends here*/
+
+#team-section{
+  min-height: 100vh;
+  padding: 50px 0;
+}
+#team-section h1{
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+.team-1-wrapper, .team-2-wrapper{
+ justify-content: space-between;
+ margin-bottom: 20px;
+}
+.team-1-wrapper .person{
+   width: 300px;
+  
+}
+.team-1-wrapper .person-1 .person-img {
+  width: 300px;
+  height: 250px;
+  background: url(../img/about/person-1.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.team-1-wrapper .person-2 .person-img {
+  width: 300px;
+  height: 250px;
+  background: url(../img/about/person-2.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.team-1-wrapper .person-3 .person-img {
+  width: 300px;
+  height: 250px;
+  background: url(../img/about/person-3.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team-2-wrapper .person-4 .person-img {
+  width: 300px;
+  height: 250px;
+  background: url(../img/about/person-4.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team-2-wrapper .person-5 .person-img {
+  width: 300px;
+  height: 250px;
+  background: url(../img/about/person-5.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.team-2-wrapper .person-6 .person-img {
+  width: 300px;
+  height: 250px;
+  background: url(../img/about/person-6.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.person .person-name{
+  background-color: #1e1b1b;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.person .person-name p{
+  opacity: 0.7;
+}
+/*team styling ends here*/
+.cta-section-container{
+  display: flex;
+  width: 100%;
+}
+.cta-section-container .cta-bg-section{
+  background: url(../img/cta-bg.png);
+  width: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cta-section-content{
+width: 60%;
+
+}
+.orange-back{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+background: url(../img/cta-bg-1.png);
+background-position: left;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.cta-header h3{
+font-size: 30px;
+font-weight: 700;
+padding: 30px 0;
+color: white
+}
+
+.cta-header{
+  background-color: #ff6433;
+  width: 100%;
+  padding: 200px 0;
+  padding: 30px;
+}
+.cta-button button{
+  padding: 16px 40px;
+  border: none;
+  color: white;
+  background-color: #1e1e1e;
+  font-weight: 600;
+  font-weight: 24px;
+}
+/*cta styling  ends here*/
+
+#footer{
+  background-color: #1e1b1b;
+  color: white;
+  opacity: 0.98;
+}
+.footer-container{
+ width: 70%;
+ margin: 0 auto;
+ display: flex;
+ padding: 100px 0;
+}
+.footer-left{
+  width: 50%;
+  
+}
+.footer-left .footer-left-header{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.footer-right{
+  width: 50%;
+  
+}
+.footer-right .title{
+  color: #ffffff;
+  opacity: 0.6;
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer-right .helpline p{
+font-size: 24px;
+font-weight: 600;
+}
+.footer-right .helpline{
+  margin-bottom: 20px;
+}
+.footer-left-social img{
+  margin: 0 10px ;
+}
+.footer-bottom{
+background-color:#1b1e1e;
+padding: 50px;
+}
+.footer-bottom-container{
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer-bottom-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom .navigation ul{
+ list-style-type: none;
+ display: flex;
+ align-items: center;
+}
+.footer-bottom .navigation ul li a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  font-weight: 600;
+}
