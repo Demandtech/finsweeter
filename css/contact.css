@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Manrope";
+}
+
+.wrapper{
+  width: 75%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100px ;
+}
+
+.right-nav {
+  display: flex;
+  align-items: center;
+}
+
+.assistance{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.assistance .phone{
+  padding-right: 5px;
+}
+
+.assistance-para .road{
+  color: #ccc;
+}
+
+.assistance-para .num{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+#nav-links{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #ccc;
+padding-right: 20px;
+}
+
+#nav-links li a{
+  text-decoration: none;
+  padding: 10px;
+  font-weight: 600;
+  color: #1e1b1b;
+}
+
+.get-intouch-container{
+  width: 75%;
+  margin: 30px auto 0 auto;
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+.get-intouch-container h1{
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.get-intouch-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intouch-left{
+  width: 45%;
+}
+.intouch-left input{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  background-color: #F2F2F2;
+  border: none;
+  border-radius: 2px;
+}
+.intouch-left input::placeholder{
+  color: #1e1b1b
+
+}
+.intouch-left button{
+  border: none;
+  padding: 16px 40px;
+  background-color: #ff6433;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+.intouch-right{
+  width: 45%;
+}
+.helpline{
+  margin-bottom: 10px;
+}
+.helpline p{
+  font-size: 24px;
+  font-weight: 500;
+}
+.helpline .title{
+opacity: 0.6;
+font-size: 18px;
+}
+
+footer{
+   background-color:#1b1e1e;
+}
+.footer-wrapper{
+ 
+  width: 75%;
+  margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+  }
+  .footer-wrapper .navigation ul{
+   list-style-type: none;
+   display: flex;
+   align-items: center;
+   
+  }
+  .footer-wrapper .navigation ul li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    
+  }
