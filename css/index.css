@@ -628,7 +628,7 @@ font-weight: 600;
   }
   /*Mobile view Styling*/
 
-  @media (max-width: 400px){
+  @media (max-width: 600px){
     br{
       display: none;
     }
@@ -668,7 +668,7 @@ font-weight: 600;
       padding: 20px 5px;
     }
     .hero-flex{
-       flex-direction: column;
+       flex-direction: column-reverse;
        width: 100%;
     }
     #hero-section .text-section, #hero-section .image-section{
@@ -691,11 +691,12 @@ font-weight: 600;
     }
     .time-section{
     display: flex;
-   justify-content: center;
-   margin-top: 10px;
-    }
-    .time-section .image-box{
-      display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top:0;
+    width: 80%;
+    margin: auto;
+    
     }
     #quote-section{
       padding: 0;
@@ -707,7 +708,8 @@ font-weight: 600;
     }
     .quote-left-section{
       width: 100%;
-      padding: 0;
+      padding: 20px 30px; 
+    
     }
     .quote-left-section h2{
       text-align: center;
@@ -718,7 +720,7 @@ font-weight: 600;
     }
     .quote-right-section{
       width: 100%;
-      padding: 5px;
+      padding: 20px 40px;
     }
     .quote-right-section h3{
       text-align: center;
@@ -731,6 +733,7 @@ font-weight: 600;
     .process-container{
       width: 100%;
       flex-direction: column;
+      padding: 20px;
     }
     .left-process-container{
       width: 100%;
@@ -764,6 +767,13 @@ font-weight: 600;
       align-items: flex-start;
       justify-content: flex-start;
     }
+    #offer-section{
+      padding-bottom: 20px;
+    }
+    #offer-section .offer-section-header{
+      padding: 30px 0 ;
+      line-height: 1.2;
+    }
     .offer-section-container{
       width: 100%;
       justify-content: center;
@@ -776,6 +786,9 @@ font-weight: 600;
      align-items: center;
      width: 100%;
     }
+      .offer-section-top-container .item, .offer-section-bottom-container .item, .offer-section-top-container .item-1{
+        width:80%;
+      }
     .offer-more{
       justify-content: center;
     }
@@ -803,9 +816,26 @@ font-weight: 600;
       font-size: 24px;
       padding-bottom:30px;
     }
+    .brand-top-bottom-wrap{
+      display: flex;
+      width: 90%;
+      margin: 0 auto;
+      justify-content: space-between;
+    }
+    .brand-section-header{
+      padding-top:10px;
+    }
     .brand-top-section-wrapper{
       flex-direction: column;
-      width: 100%;
+      width: 45%;
+      align-items: center;
+    }
+    .top-brand-img, {
+      width: 45%
+    }
+    .brand-bottom-section-wrapper{
+      flex-direction: column;
+      width: 50%;
       align-items: center;
     }
     .testimonial-container{
@@ -871,6 +901,12 @@ font-weight: 600;
       
     }
     } 
+
+
+    @media (max-width:768px)  {
+
+
+    }
     
 
 
